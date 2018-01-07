@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A* Path Planning</title>
+
+</head>
+<body onload="checkFileAPI()">
+<div style="position: absolute; top: 600px; left: 820px;">
+
+    <input type="hidden" id="main">
+    <input type="file" onchange="readText(this)"/>
+    <input type="button" value="Start" onclick="AstarStart();" />
+    <input type="button" value="Step" onclick="AstarInterval();" />
+    <input type="button" value="increaseInterval" onclick="increaseInterval();" />
+    <input type="button" value="decreaseInterval" onclick="decreaseInterval();" />
+</div>
+<script src='mapGameLike.js'></script>
+<div style="position: absolute; top: 250px; left: 850px;">
+    <ul>
+        <li>Click on "Choose file" button on the screen and select a Map text file from the Map folder of this project.</li>
+        <li>Now click one of the white cells to create a source node and click again on another white cell to create destination code.</li>
+        <li>Click on start to start the animation of creating path</li>
+        <li>If you want slow animation click decrease interval before clicking start or increase interval to speed up the process.</li>
+        <li>If you want to see each step of A* Algorithm press step instead of start.</li>
+        <li>You will need to refresh the page if you want to start-over.</li>
+    </ul>
+
+</div>
+
+
+</body>
+</html>

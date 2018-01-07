@@ -1,0 +1,33 @@
+Default Map (3 defaults) - Done 	 
+
+Final Values F(x), H(x), and G(x) - Done
+
+Final Path Drawn - Done
+
+Final Length & #Steps Displayed - Done
+
+Efficency Smooth Anim - Done
+
+Control Speed of Animation - Done
+
+At Least Size of 500  cells support (size configurable)	 - Done
+
+Configurable Environmental Obstacles  placement	 - Done
+
+Goal (x,y) Configurable placement	 - Done
+
+Start (x, y) Configurable placement	 - Done
+
+Provide a Stepped Speed	- Done
+
+Report w/  screen shots or Video - Done
+
+Grading.txt - Done
+
+3 Tests for Correctness	- Done
+
+Readme.txt - Done
+
+youtube video (quality) - Done
+
+Game like look  (you'll need to craft  Sprites & Tiles) - Done
